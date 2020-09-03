@@ -8,12 +8,9 @@ while num_int >= 0:
         # Setja það sem hæsta gildið.
         max_int = num_int
         # Prenta út hæsta gildið.
-        print("The maximum is", max_int)
         # Spyrja notanda um annað jákvætt gildi
-    elif num_int < max_int:
-        num_int = int(input("Input a number: "))
+    num_int = int(input("Input a number: "))
+print("The maximum is", max_int)
 # Ef notandi setur inn neikvæða tölu, skal stoppa forritið.
-else:
-    break
- 
+
 
