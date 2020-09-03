@@ -10,7 +10,9 @@ print(num_1)
 print(num_2)
 print(num_3)
 
+# For loopan leggur saman síðustu 3 tölur til að mynda nýja stakið.
 for i in range(1, n-2):
+    # endurnýja þarf síðustu 3 tölur fyrir hvert skipti.
     num_4 = num_1 + num_2 + num_3
     num_1 = num_2
     num_2 = num_3
